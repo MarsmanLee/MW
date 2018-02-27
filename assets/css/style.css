@@ -1,0 +1,209 @@
+@charset "utf-8";  
+/* 适合行业开始 */
+.industry-con h2{
+    font-size: 32px;
+    color: #6b6b6b;
+    text-align: center;
+    font-family: "MicrosoftYaHei";
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+.industry-list{
+    width: 948px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+.industry-list li{
+    float: left;
+    text-align: center;
+    padding-right: 113px;
+    padding-top: 60px;
+}
+.industry-list li:last-child{
+    padding-right: 0;
+}
+.industry-list li span{
+    display: block;
+    width: 91px;
+    height: 91px;
+    margin: 0 auto;
+    background: url("../images/home/shhy/shangye.png") no-repeat;
+}
+.industry-list li:nth-child(2) span{
+    background: url("../images/home/shhy/fangdichan.png") no-repeat;
+}
+.industry-list li:nth-child(3) span{
+    background: url("../images/home/shhy/zhuangxiu.png") no-repeat;
+}
+.industry-list li:nth-child(4) span{
+    background: url("../images/home/shhy/jianzhu.png") no-repeat;
+}
+.industry-list li:nth-child(5) span{
+    background: url("../images/home/shhy/houxu.png") no-repeat;
+}
+.industry-list li i{
+    font-size: 18px;
+    color: #6b6b6b;
+    text-align: center;
+    font-family: "MicrosoftYaHei";
+    display: block;
+    margin-top: 18px;
+    letter-spacing: 1px;
+}
+/* 适合行业结束 */
+
+/* 三大战略业务开始 */
+.business h2{
+    height: 88px;
+    line-height: 88px;
+    font-size: 34px;
+    color: #6b6b6b;
+    text-align: center;
+    font-family: "MicrosoftYaHei";
+    letter-spacing: 2px;
+    background: #f7f6f6;
+}
+.business-con{
+    background: url("../images/home/hom_bg.png") no-repeat;
+    background-size: cover;
+}
+.business-info{
+    height: 1144px;
+    position: relative;
+}
+
+.mw-logo{
+    width: 226px;
+    height: 252px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);	/* Firefox */
+    -webkit-transform: translate(-50%,-50%); /* Safari 和 Chrome */
+    -o-transform: translate(-50%,-50%); 	/* Opera */
+}
+.mw-logo a{
+    padding: 16px;  
+    -webkit-transition: all ease .3s;
+    transition: all ease .3s;
+    position: absolute;
+}
+.mw-logo a span{
+    display: inline-block;
+    width: 226px;
+    height: 252px;
+    background: url("../images/home/mwLogo.png") no-repeat;    
+}
+.surmax h3, .supply h3, .b2c h3{
+    display: inline-block;
+    font-family: "MicrosoftYaHei";
+    font-size:30px;
+    color:#333333;
+    letter-spacing:0.63px;
+    text-align:center;
+    vertical-align: middle;
+}
+.surmax P, .supply p, .b2c p{
+    font-family: "MicrosoftYaHei";
+    font-size:20px;
+    color:#333333;
+    letter-spacing:0.42px;
+    line-height:33px;
+    text-align:left;
+    padding-top: 10px;
+}
+.surmax{
+    width: 386px;
+    position: absolute;
+    top: 95px;
+}
+.supply{
+    width: 386px;
+    position: absolute;
+    right: 0px;
+    top: 95px;
+}
+.surmax h3,.supply h3{
+    padding: 20px 0;
+}
+.surmax a, .supply a{
+    display: block;
+    width: 386px;
+    padding: 18px;
+    -webkit-transition: all ease .3s;
+    transition: all ease .3s;
+}
+.surmax a:hover, .supply a:hover,.b2c a:hover,.mw-logo a:hover{
+    border-radius: 10px;
+    transform:scale(1.05);
+    -webkit-transform:scale(1.05);
+    box-shadow:2px 5px 24px 5px rgba(0,0,0,.4);
+}
+.surmax span{
+    display: inline-block;
+    width: 330px;
+    height: 55px;
+    padding-bottom: 20px;
+    background: url("../images/home/zlyw/SURMAX.png") no-repeat;
+}
+.supply span{
+    display: inline-block;
+    width: 325px;
+    height: 51px;
+    padding-bottom: 20px;
+    background: url("../images/home/zlyw/SUPPLY.png") no-repeat;
+}
+.b2c{
+    width: 320px;
+    position: absolute;
+    left: 50%;
+    bottom: 116px;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);	/* Firefox */
+    -webkit-transform: translateX(-50%); /* Safari 和 Chrome */
+    -o-transform: translateX(-50%); 	/* Opera */
+}
+.b2c a{
+    display: block;
+    width: 320px;
+    padding: 16px;
+    -webkit-transition: all ease .3s;
+    transition: all ease .3s;
+}
+.b2c span{
+    display: inline-block;
+    width: 55px;
+    height: 62px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: url("../images/home/zlyw/ysLogo.png") no-repeat;
+}
+/* 三大战略业务结束 */
+
+
+/* 底部开始 */
+.footer{
+    margin-top: 79px;
+    text-align: center;
+}
+.footer a ,.footer i, .copyright{
+    font-family: "MicrosoftYaHei";
+    font-size:13px;
+    color:#888888;
+    letter-spacing:1px;
+}
+.footer a:hover{
+    color: #2cb4ae;
+}
+.footer i{
+    padding: 0 2px;
+}
+.copyright{
+    margin-top: 18px;
+}
+.beian{
+    margin-top: 18px;    
+    margin-bottom: 93px;
+}
+/* 底部结束 */

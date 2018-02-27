@@ -1,0 +1,45 @@
+@charset "utf-8";  
+/* logo */
+.surmax {
+    width: 584px;
+    height: 56px;
+    margin: 80px auto;
+    background: url("../../images/surmax/SURMAX_LOGO.png") no-repeat;
+}
+/* 去除图片白边 */
+img{
+    display: block;
+}
+/* 标题 */
+.title{
+    font-size:34px;
+    font-family:"黑体";
+    color:#6b6b6b;
+    letter-spacing:1.21px;
+    text-align:center;
+    height: 90px;
+    line-height: 86px;
+    background:#fcf7f0;
+    margin-bottom: 44px;
+}
+/* 介绍 */
+.info{
+    font-size:28px;
+    font-family:"黑体";       
+    color:#6b6b6b;
+    text-align:center;
+    margin-top: 68px;
+    margin-bottom: 88px;
+}
+/* 底部 */
+.footer{
+    background:#fafafa;
+    padding: 80px 0px;
+}
+.copyright {
+    margin-top: 18px;
+}
+.beian{
+    margin-top: 18px;
+    margin-bottom: 0;
+}

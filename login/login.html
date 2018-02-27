@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <style>
+        .choose{
+            text-align: center;
+            margin-top: 90px;
+        }
+        .choose-tit{
+            font-family: "MicrosoftYaHei";
+            font-size:32px;
+            color:#6b6b6b;
+            letter-spacing:1.14px;
+            text-align:center;
+        }
+        .choose li{
+            float: left;
+            width: 334px;
+            margin-top: 96px;
+            margin-right: 88px;
+        }
+        .choose li:last-child{
+            margin-right: 0;
+        }
+        .choose li a{
+            display: inline-block;
+            width: 334px;
+            height: 172px;
+            background: #ffffff;
+            box-shadow: 0 2px 5px 2px rgba(0,0,0,0.35);
+            transition: all ease .3s;
+            -webkit-transition: all ease .3s;
+            -moz-transition: all ease .3s;
+            -o-transition: all ease .3s;
+            border-radius: 4px;
+            position: relative;
+        }
+        .choose li a:hover{
+            transform:scale(1.05);
+            -webkit-transform:scale(1.05);
+            -moz-transform:scale(1.05);
+            -o-transform:scale(1.05);
+            box-shadow:2px 5px 24px 5px rgba(0,0,0,.4);
+        }
+        .choose li img{
+            display: block;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);/* Firefox */
+            -webkit-transform: translate(-50%, -50%);/* Safari 和 Chrome */
+            -o-transform: translate(-50%, -50%);/* Opera */
+        }
+        .choose p{
+            font-family:"MicrosoftYaHei";
+            font-size:20px;
+            color:#333333;
+            letter-spacing:1.76px;
+            line-height:31px;
+            margin-top: 35px;
+        }
+        .choose-info{
+            font-family: "MicrosoftYaHei";
+            font-size:26px;
+            color:rgba(0,0,0,0.35);
+            letter-spacing:0.93px;
+            margin-top: 94px;
+            margin-bottom: 218px;
+        }
+        .footer{
+            background:#fafafa;
+            padding: 80px 0px;
+        }
+        .copyright {
+            margin-top: 18px;
+        }
+        .beian{
+            margin-top: 18px;
+            margin-bottom: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <div class="header">
+        <div class="headerbox w clearfix">
+            <!-- logo -->
+            <div class="fl logobox">
+                <a href="../index.html  " class="logo"></a>
+            </div>
+            <!-- 导航栏 -->
+            <ul class="navlist fr clearfix">
+                <li>
+                    <a href="../index.html">首页</a>
+                </li>
+                <li>
+                    <a href="http://222.68.189.99:8082/ERPUI/" target="_blank">SURMAX</a>
+                </li>
+                <li>
+                    <a href="http://222.68.189.99:8082/B2BUI/" target="_blank">SUPPLY+</a>
+                </li>
+                <li>
+                    <a href="http://222.68.189.99:8082/B2CWEBSITE/" target="_blank">美武商城</a>
+                </li>
+                <li>
+                    <a href="../about/about.html">关于</a>
+                </li>
+                <li>
+                    <a href="#" class="orange">登录</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 轮播图区域 -->
+    <div class="banner" id="banner">
+        <ul class="clearfix">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <!-- 小圆点 -->
+        <ol class="clearfix" id="circle">
+            <li class="current"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+
+    <!-- 登录平台 -->
+    <div class="choose w">
+        <h1 class="choose-tit">请选择您需要登录的美武平台</h1>
+        <ul class="clearfix">
+            <li>
+                <a href="http://222.68.189.99:8082/ERPUI/" target="_blank">
+                    <img src="../assets/images/login/word2.png" alt="美武智能企业管理系统"/>
+                </a>
+                <p>美武智能企业管理系统</p>
+            </li>
+            <li>
+                <a href="http://222.68.189.99:8082/B2CWEBSITE/" target="_blank">
+                    <img src="../assets/images/login/meiwu.png" alt="美武商城B2C系统"/>
+                </a>
+                <p>美武商城B2C系统</p>
+            </li>
+            <li>
+                <a href="http://222.68.189.99:8082/B2BUI/" target="_blank">
+                    <img src="../assets/images/login/word1.png" alt="美武供应链管理系统"/>                    
+                </a>
+                <p>美武供应链管理系统</p>
+            </li>
+        </ul>
+        <h3 class="choose-info">美武云商为您提供一流的系统及卓越体验</h3>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+        <p>
+            <a href="#">关于我们</a>
+            <i>|</i>
+            <a href="#">联系我们</a>
+            <i>|</i>
+            <a href="#">人才招聘</a>
+            <i>|</i>
+            <a href="#">商家入驻</a>
+            <i>|</i>
+            <a href="#">广告服务</a>
+            <i>|</i>
+            <a href="#">手机美武</a>
+            <i>|</i>
+            <a href="#">友情链接</a>
+            <i>|</i>
+            <a href="#">销售联盟</a>
+            <i>|</i>
+            <a href="#">美武社区</a>
+            <i>|</i>
+            <a href="#">美武公益</a>
+            <i>|</i>
+            <a href="#">English Site</a>
+        </p>
+        <p class="copyright">Copyright©2004-2016 美武MW.com 版权所有</p>
+        <p class="beian"><a href="#">鲁ICP备18007980号</a></p>
+        
+    </div>
+
+    <script src="../assets/js/index.js"></script>    
+</body>
+
+</html>
